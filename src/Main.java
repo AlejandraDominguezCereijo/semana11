@@ -45,6 +45,7 @@ public class Main {
 
         Perfil datos = new Perfil(nombre,apellido,telefono);
         System.out.println(datos.toString());//al añadirlo asi con el sout hacemos que nos lea el toString
+
         }
 
         Agenda perfiles = new Agenda();

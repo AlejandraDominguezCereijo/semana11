@@ -5,18 +5,12 @@ public class Agenda {
         this.agenda = agenda;
     }
 
-    public Perfil[] getAgenda() {
-        return agenda;
-    }
 
-    public void setAgenda(Perfil[] agenda) {
-        this.agenda = agenda;
-    }
     public Perfil[] añadirPerfil(){
 
         for (int i=0; i< agenda.length; i++){
 
-
+// no supe como rellenar el array con los perfiles
         }
 
         System.out.println("Estos son los perfiles que tenemos en la agenda: ");
